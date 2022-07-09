@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ef5de3f.css",
+    "main.js": "/static/js/main.f87956cb.js",
+    "static/js/787.fd5654d4.chunk.js": "/static/js/787.fd5654d4.chunk.js",
+    "static/media/poppins-medium-webfont.woff": "/static/media/poppins-medium-webfont.26740a883b72ad6ef239.woff",
+    "static/media/poppins-black-webfont.woff": "/static/media/poppins-black-webfont.a1e1d4d8d47c884945ea.woff",
+    "static/media/poppins-bold-webfont.woff": "/static/media/poppins-bold-webfont.cd720c93dcc4aa728540.woff",
+    "static/media/poppins-regular-webfont.woff": "/static/media/poppins-regular-webfont.93b39a9f9063d89b0bf1.woff",
+    "static/media/poppins-semibold-webfont.woff": "/static/media/poppins-semibold-webfont.efeb285d5c702960481b.woff",
+    "static/media/poppins-light-webfont.woff": "/static/media/poppins-light-webfont.d2fe4aa6ba0f096d214b.woff",
+    "static/media/poppins-medium-webfont.woff2": "/static/media/poppins-medium-webfont.db5d9373b977d93843a6.woff2",
+    "static/media/poppins-semibold-webfont.woff2": "/static/media/poppins-semibold-webfont.620315f80efd359c1991.woff2",
+    "static/media/poppins-black-webfont.woff2": "/static/media/poppins-black-webfont.579eba075c00b394c639.woff2",
+    "static/media/poppins-bold-webfont.woff2": "/static/media/poppins-bold-webfont.3cd725dffbf8e644851b.woff2",
+    "static/media/poppins-light-webfont.woff2": "/static/media/poppins-light-webfont.e9d98a40086c7779b62e.woff2",
+    "static/media/poppins-regular-webfont.woff2": "/static/media/poppins-regular-webfont.f53784e9dff51c35bbb1.woff2",
+    "index.html": "/index.html",
+    "main.1ef5de3f.css.map": "/static/css/main.1ef5de3f.css.map",
+    "main.f87956cb.js.map": "/static/js/main.f87956cb.js.map",
+    "787.fd5654d4.chunk.js.map": "/static/js/787.fd5654d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ef5de3f.css",
+    "static/js/main.f87956cb.js"
+  ]
+}

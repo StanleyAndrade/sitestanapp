@@ -1,0 +1,19 @@
+.imagepag {
+    width: 200px;
+    height: 200px;
+}
+
+.divPaiAprovado {
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.paragrafoPag {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}

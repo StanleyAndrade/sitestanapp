@@ -1,0 +1,171 @@
+@media screen and (max-width: 700px) {
+    
+    /*Header*/
+    .menutopo{
+        flex-direction: column;
+    }
+
+    /*Botões do Header*/
+
+    .nav-list {
+        display: none;
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #23232e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+    }
+
+    /*Abaixo da Header*/
+  
+    .nomeladodalogo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .h1home{
+        font-size: 30px;
+    }
+  
+    .abaixoh1{
+        font-size: 20px;
+    }
+
+    article{
+        display: none;
+    }
+
+    aside{
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*Conteúdo*/
+
+    .textconteudo1{
+        font-size: 23px;
+    }
+
+    .textconteudo2{
+        font-size: 14px;
+    }
+
+    .imgcatalogo{
+        width: 320px;
+    }
+
+   
+    .mainproduto{
+        width: auto;
+        height: 255px;
+        margin-top: 50px;
+    }
+
+     /*PriceTable*/
+
+    .flexContainerPricetable {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .priceTable {
+        display: flex;
+        float: none;
+       
+        flex-direction: column;
+    }
+   
+    .ulpriceTable{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .botaoPriceTable{
+        margin: auto;
+    }
+
+
+    /*Contato*/
+
+    .contato {
+        display: flex;
+        padding: 1%;
+        width: auto;
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .ulcontato {
+        margin: auto;
+        padding-left: 0%;
+        align-items: center;
+    }
+
+    #itemlistacontato {
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 11px;
+        align-items: center;
+        margin: 10px;
+        display: inline-block; /*coloca em linha*/
+    }
+
+    /*Pop-Up*/
+
+    .botaoPopup{
+        align-items: center;
+        margin: auto;
+    }
+
+    .modal .overlay {
+        width: 80vw;
+        height: 60vh;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        border-radius: 10px;
+       
+    }
+
+    .model-content {
+        font-size: 10px;
+        display: block;   
+        
+        
+    }
+
+    .ulPopup {
+        margin: auto;
+        padding-left: 0%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .botaoContato {
+        margin-left: auto;
+        margin-right: auto;
+        margin: none;
+     
+    }
+
+    .h1 {
+        font-size: 12px;
+    }
+}
+
+
+
+
+

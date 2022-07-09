@@ -1,0 +1,11 @@
+body{ /*Todo o site*/
+  /*background-color: rgb(34, 34, 34); /*background do site*/
+  background: linear-gradient( rgb(5, 5, 5) 1%, rgb(5, 5, 5)); /*degrade*/
+  color: white; /*cor de todas as fontes*/
+  font-family: poppinsregular; /*tipo de fonte*/
+  max-width: 1200px;
+  margin: 0 auto; /*site vai pro meio da tela - responsividade*/
+  padding: 15px;
+}
+
+

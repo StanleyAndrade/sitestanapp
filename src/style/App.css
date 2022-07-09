@@ -1,0 +1,163 @@
+/*Header*/
+
+.menutopo {
+  display: flex; /*objeto em qualquer lugar da tela*/
+  flex-direction: row; /*row ou column*/
+  justify-content: space-between; /*local e espaço dos itens*/
+  align-items: center; /*alinha os itens*/
+}
+
+.menulogo{
+  flex-direction: column;
+  line-height: 10px; /*espaço entre linhas*/
+}
+
+
+/*Abaixo do Header*/
+
+.nomeladodalogo { 
+  display: flex;
+  flex-direction: row; /*coloca imagem e texto lado a lado*/
+  margin-top: 50px;
+}
+
+.h1home{
+  font-size: 45px;
+  line-height: 15px; 
+  font-family: poppinsmedium;
+  color: rgb(155, 3, 206);
+}
+
+.abaixoh1{
+  font-size: 40px;
+  line-height: 15px; 
+  font-family: poppinsmedium;
+}
+
+.itemlista{
+  display: inline-block; /*coloca em linha*/
+  margin: 20px; /*espaço entre palavras*/
+}
+
+.Botaologin{ /*Por enquanto não é login*/
+  border: 2px solid rgb(155, 3, 206); /**/
+  padding: 10px;
+  border-radius: 15px;
+  
+}
+.Botaologin:hover{
+  background-color: rgb(155, 3, 206);
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+span{ /*cor do h2*/
+  color: rgb(155, 3, 206);
+}
+
+p{
+  line-height: 20px;
+  max-width: 500px;
+}
+
+img{
+  width: 580px; /*largura da imagem*/
+}
+
+#logo{
+  width: 300px;
+}
+
+/*Conteúdo*/
+
+.mainConteudo{
+  width: auto;
+  margin-top: 90px;
+  align-items: center;
+}
+
+.divConteudo{
+  text-align: center;
+  margin: auto;
+  width: auto;
+  align-items: center;
+}
+
+.textconteudo1{
+  color: rgb(155, 3, 206);
+  font-size: 30px;
+}
+
+.imgcatalogo {
+  width: 800px;
+}
+
+/*Produtos*/
+
+.mainproduto {
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 400px;
+  height: 255px;
+  margin-top: 100px;
+  background-color: rgb(19, 18, 18);
+  color: rgb(155, 3, 206);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clientes {
+  line-height: 30px;
+}
+
+.sitecliente {
+  display: contents;
+}
+
+.sitecliente:hover{
+  color: rgb(155, 3, 206);
+}
+
+.divproduto {
+  width: 500px;
+  text-align: center;
+}
+
+.tituloproduto {
+  font-size: 25px;
+}
+
+.produtosUn {
+  font-weight: 100;
+}
+
+/*Contato*/
+
+.contato {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.ulcontato {
+  margin: auto;
+  padding-left: 0%;
+  align-items: center;
+}
+
+#itemlistacontato{ /*pega apenas o botão submit*/
+  background-color: rgb(155, 3, 206);
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid rgb(155, 3, 206); /**/
+  font-size: 13px;
+  display: inline-block; /*coloca em linha*/
+  margin: 10px; /*espaço entre palavras*/
+}
+
+
+
+

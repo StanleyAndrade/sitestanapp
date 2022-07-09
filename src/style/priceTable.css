@@ -1,0 +1,164 @@
+.tituloPricetable{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.flexContainerPricetable { /*Coloca o pricetable lado a lado*/
+    display: flex;
+    justify-content: center;
+}
+  
+.priceTable1{ /*1*/
+  background-color: white;
+  width: 12em;
+  height: 25em;
+  color: black;
+  margin: 1em;
+  text-align: center;
+  line-height: 2.5em;
+  font-size: 2em;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.priceTable2{ /*2*/
+    background-color: white;
+    width: 12em;
+    height: 24em;
+    color: black;
+    margin: 1em;
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 2em;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.priceTable3{ /*3*/
+    background-color: white;
+    width: 12em;
+    height: 16.5em;
+    color: black;
+    margin: 1em;
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 2em;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.listitem{
+    width: 20px;
+
+
+}
+
+.iconezap {
+    width: 20px;
+    padding-right: 10px;
+    vertical-align:sub ;
+}
+
+.iconezap2 {
+    width: 20px;
+    vertical-align:sub ;
+}
+
+
+
+.priceTable:hover {
+    transform: scale(1.1);
+}
+  
+.ulPricetable { 
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+  
+.priceBackground {
+    background: rgb(155, 3, 206);
+    border-top-right-radius: 0.3em;
+    border-top-left-radius: 0.3em;
+    color: white;
+    padding-bottom: 0.7em;
+}
+  
+.priceBackground .name {
+    font-weight: 100;
+    margin-bottom: -1em;
+}
+  
+.priceBackground .priceTag {
+    font-size: 2em;
+}
+  
+.priceBackground .priceTag::before {
+    content: "R$";
+    font-size: 0.6em;
+    vertical-align: super;
+    font-weight: bold;
+}
+  
+.info {
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: left;
+}
+  
+.botaoPriceTable {
+    background-color: rgb(155, 3, 206);
+    color: white;
+    border: none;
+    padding: 0.8em 5em;
+    border-radius: 20px;
+    font-size: 0.5em;
+    cursor: pointer;
+}
+
+.textoextra { /*texto extra do PriceTable 2*/
+      font-size: 1pc;
+      margin: -55px;
+      padding: 0%;
+}
+
+@media screen and (max-width: 700px) {
+    .priceTable1{ /*1 e 2*/
+        background-color: white;
+        width: 10.5em;
+        height: 24.5em;
+        color: black;
+        margin: 1em;
+        text-align: center;
+        line-height: 2.5em;
+        font-size: 2em;
+        border-radius: 20px;
+        transition: all 0.0s none ;
+    }
+    .priceTable2{ /*1 e 2*/
+        background-color: white;
+        width: 10.5em;
+        height: 23.5em;
+        color: black;
+        margin: 1em;
+        text-align: center;
+        line-height: 2.5em;
+        font-size: 2em;
+        border-radius: 20px;
+        transition: all 0.0s none ;
+    }
+    .priceTable3{ /*1 e 2*/
+        background-color: white;
+        width: 10.5em;
+        height: 16em;
+        color: black;
+        margin: 1em;
+        text-align: center;
+        line-height: 2.5em;
+        font-size: 2em;
+        border-radius: 20px;
+        transition: all 0.0s none ;
+    }
+}
